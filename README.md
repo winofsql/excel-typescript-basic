@@ -1,6 +1,6 @@
 # excel-typescript-basic
 
-```
+```typescript
 function main(workbook: ExcelScript.Workbook) {
   var name = workbook.getActiveWorksheet().getName();
   console.log(name);
